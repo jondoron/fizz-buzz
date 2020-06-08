@@ -1,0 +1,23 @@
+{
+    "name": "jondoron/fizzbuzz",
+    "description": "Configurable FizzBuzz project using Symfony Console",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Doron",
+            "email": "jonathan.doron@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "symfony/console": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
